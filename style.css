@@ -1,0 +1,41 @@
+
+#city-input, #weather-output {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color: #000;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#card-header {
+    height: 200px;
+    background-image: url('images/sunny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.card-header-layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suntime {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.suntime h5 {
+    font-size: 16px;
+}
